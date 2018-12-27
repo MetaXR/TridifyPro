@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2018-12-27T08:22:22</created>
+    <modified>2018-12-27T08:22:22</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Concrete,_Cast_In_Situ-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.7529411904952106 0.7529411904952106 0.7529411904952106 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Roofing_-_Asphalt-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.6078431220031248 0.6078431220031248 0.6078431220031248 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Concrete,_Cast_In_Situ">
+      <instance_effect url="#Concrete,_Cast_In_Situ-fx"/>
+    </material>
+    <material id="Roofing_-_Asphalt">
+      <instance_effect url="#Roofing_-_Asphalt-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-231640">
+      <mesh>
+        <source id="representation-231640-positions">
+          <float_array id="representation-231640-positions-array" count="108">0.0 1.975000023841858 0.30000001192092896 6.0 1.975000023841858 0.30000001192092896 0.0 0.10000000149011612 0.30000001192092896 6.0 0.10000000149011612 0.30000001192092896 0.0 0.10000000149011612 0.30000001192092896 6.0 0.10000000149011612 0.30000001192092896 0.0 0.10000000149011612 0.1899999976158142 6.0 0.10000000149011612 0.1899999976158142 0.0 0.10000000149011612 0.1899999976158142 6.0 0.10000000149011612 0.1899999976158142 0.0 0.0 0.1899999976158142 6.0 0.0 0.1899999976158142 0.0 0.0 0.1899999976158142 6.0 0.0 0.1899999976158142 0.0 0.0 -8.298919819578476e-14 6.0 0.0 -8.298919819578476e-14 0.0 0.0 -8.298919819578476e-14 6.0 0.0 -8.298919819578476e-14 0.0 1.975000023841858 -8.298919819578476e-14 6.0 1.975000023841858 -8.298919819578476e-14 0.0 1.975000023841858 -8.298919819578476e-14 6.0 1.975000023841858 -8.298919819578476e-14 0.0 1.975000023841858 0.30000001192092896 6.0 1.975000023841858 0.30000001192092896 0.0 1.975000023841858 0.30000001192092896 0.0 0.10000000149011612 0.30000001192092896 0.0 0.10000000149011612 0.1899999976158142 0.0 0.0 0.1899999976158142 0.0 0.0 -8.298919819578476e-14 0.0 1.975000023841858 -8.298919819578476e-14 6.0 1.975000023841858 0.30000001192092896 6.0 0.10000000149011612 0.30000001192092896 6.0 0.10000000149011612 0.1899999976158142 6.0 0.0 0.1899999976158142 6.0 0.0 -8.298919819578476e-14 6.0 1.975000023841858 -8.298919819578476e-14</float_array>
+          <technique_common>
+            <accessor source="#representation-231640-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-231640-normals">
+          <float_array id="representation-231640-normals-array" count="108">0.0 0.0 1.0 0.0 0.0 0.999969482421875 0.0 0.0 0.999969482421875 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -0.999969482421875 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.999969482421875 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-231640-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-231640-texcoord-0">
+          <float_array id="representation-231640-texcoord-0-array" count="72">0.0 1.975000023841858 6.0 1.975000023841858 0.0 0.10000000149011612 6.0 0.10000000149011612 0.0 0.30000001192092896 6.0 0.30000001192092896 0.0 0.1899999976158142 6.0 0.1899999976158142 0.0 0.10000000149011612 6.0 0.10000000149011612 0.0 0.0 6.0 0.0 0.0 0.1899999976158142 6.0 0.1899999976158142 0.0 -8.298919819578476e-14 6.0 -8.298919819578476e-14 0.0 0.0 -6.0 0.0 0.0 1.975000023841858 -6.0 1.975000023841858 0.0 -8.298919819578476e-14 -6.0 -8.298919819578476e-14 0.0 0.30000001192092896 -6.0 0.30000001192092896 -1.975000023841858 0.30000001192092896 -0.10000000149011612 0.30000001192092896 -0.10000000149011612 0.1899999976158142 0.0 0.1899999976158142 0.0 -8.298919819578476e-14 -1.975000023841858 -8.298919819578476e-14 1.975000023841858 0.30000001192092896 0.10000000149011612 0.30000001192092896 0.10000000149011612 0.1899999976158142 0.0 0.1899999976158142 0.0 -8.298919819578476e-14 1.975000023841858 -8.298919819578476e-14</float_array>
+          <technique_common>
+            <accessor source="#representation-231640-texcoord-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-231640-texcoord-1">
+          <float_array id="representation-231640-texcoord-1-array" count="72">0.7938138246536255 0.9999997615814209 0.7938136458396912 0.0 0.4072163999080658 0.9999998211860657 0.4072161912918091 0.0 0.9175256490707397 1.0 0.9175254106521606 0.0 0.8948452472686768 1.0 0.8948450684547424 0.0 0.9381443858146667 0.9999998211860657 0.9381442070007324 0.0 0.9175258874893188 0.9999998211860657 0.9175256490707397 0.0 0.8948450684547424 1.0 0.8948448300361633 0.0 0.8556698560714722 1.0 0.8556696176528931 0.0 0.4072161912918091 0.9999998211860657 0.40721598267555237 0.0 1.9663363559629943e-07 0.9999998807907104 0.0 0.0 0.8556696176528931 1.0 0.8556694388389587 0.0 0.7938140034675598 1.0 0.7938138246536255 0.0 0.9999999403953552 0.6583333015441895 0.9999999403953552 0.34583333134651184 0.977319598197937 0.34583333134651184 0.977319598197937 0.3291666507720947 0.9381443858146667 0.3291666507720947 0.9381443858146667 0.6583333015441895 0.9381443858146667 0.3291666507720947 0.9381443858146667 0.01666666753590107 0.960824728012085 0.01666666567325592 0.960824728012085 5.921189111737107e-16 0.9999999403953552 0.0 1.0 0.3291666507720947</float_array>
+          <technique_common>
+            <accessor source="#representation-231640-texcoord-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-231640-vertices">
+          <input semantic="POSITION" source="#representation-231640-positions"/>
+        </vertices>
+        <triangles material="Concrete,_Cast_In_Situ" count="20">
+          <input semantic="VERTEX" source="#representation-231640-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-231640-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-231640-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-231640-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 19 17 18 21 20 22 23 21 22 25 24 26 24 29 26 27 26 28 26 29 28 32 30 31 32 35 30 34 32 33 34 35 32 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-231273">
+      <mesh>
+        <source id="representation-231273-positions">
+          <float_array id="representation-231273-positions-array" count="72">0.0 -1.5010200385152245e-13 0.0 0.0 -1.5010200385152245e-13 0.33799999952316284 6.0 -1.5010200385152245e-13 0.0 6.0 -1.5010200385152245e-13 0.33799999952316284 6.0 -1.5010200385152245e-13 0.0 6.0 -1.5010200385152245e-13 0.33799999952316284 6.0 11.79800033569336 0.0 6.0 11.79800033569336 0.33799999952316284 6.0 11.79800033569336 0.0 6.0 11.79800033569336 0.33799999952316284 0.0 11.79800033569336 0.0 0.0 11.79800033569336 0.33799999952316284 0.0 11.79800033569336 0.0 0.0 11.79800033569336 0.33799999952316284 0.0 -1.5010200385152245e-13 0.0 0.0 -1.5010200385152245e-13 0.33799999952316284 0.0 -1.5010200385152245e-13 0.0 6.0 -1.5010200385152245e-13 0.0 6.0 11.79800033569336 0.0 0.0 11.79800033569336 0.0 0.0 -1.5010200385152245e-13 0.33799999952316284 6.0 -1.5010200385152245e-13 0.33799999952316284 6.0 11.79800033569336 0.33799999952316284 0.0 11.79800033569336 0.33799999952316284</float_array>
+          <technique_common>
+            <accessor source="#representation-231273-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-231273-normals">
+          <float_array id="representation-231273-normals-array" count="72">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-231273-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-231273-texcoord-0">
+          <float_array id="representation-231273-texcoord-0-array" count="48">0.0 0.0 0.0 0.33799999952316284 6.0 0.0 6.0 0.33799999952316284 -1.5010200385152245e-13 0.0 -1.5010200385152245e-13 0.33799999952316284 11.79800033569336 0.0 11.79800033569336 0.33799999952316284 -6.0 0.0 -6.0 0.33799999952316284 0.0 0.0 0.0 0.33799999952316284 -11.79800033569336 0.0 -11.79800033569336 0.33799999952316284 1.5010200385152245e-13 0.0 1.5010200385152245e-13 0.33799999952316284 0.0 -1.5010200385152245e-13 -6.0 -1.5010200385152245e-13 -6.0 11.79800033569336 0.0 11.79800033569336 0.0 -1.5010200385152245e-13 6.0 -1.5010200385152245e-13 6.0 11.79800033569336 0.0 11.79800033569336</float_array>
+          <technique_common>
+            <accessor source="#representation-231273-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-231273-texcoord-1">
+          <float_array id="representation-231273-texcoord-1-array" count="48">0.9740279912948608 1.0 1.0 1.0 0.9740278720855713 0.5 0.9999998807907104 0.5 0.9480555057525635 0.0 0.9220834374427795 8.506103377214913e-09 0.9480557441711426 0.9831666350364685 0.9220837354660034 0.9831666350364685 0.9740279912948608 0.5 1.0 0.5 0.9740278720855713 7.0513426209117824e-09 0.9999999403953552 0.0 0.9740278124809265 0.0 0.9480558037757874 0.0 0.9740278720855713 0.9831666350364685 0.9480558633804321 0.9831666350364685 2.1614108902667795e-07 0.983166515827179 0.46104180812835693 0.9831663966178894 0.46104156970977783 0.0 0.0 0.0 0.4610418677330017 0.0 0.9220834374427795 3.178651653001907e-08 0.9220833778381348 0.9831666350364685 0.46104180812835693 0.983166515827179</float_array>
+          <technique_common>
+            <accessor source="#representation-231273-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-231273-vertices">
+          <input semantic="POSITION" source="#representation-231273-positions"/>
+        </vertices>
+        <triangles material="Roofing_-_Asphalt" count="12">
+          <input semantic="VERTEX" source="#representation-231273-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-231273-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-231273-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-231273-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="1N_4TwOEH5194SbNmRTDH0" name="1N_4TwOEH5194SbNmRTDH0" type="NODE">
+        <matrix sid="transform">0.7986354231834412 -0.6018149852752686 0.0 -10.999130249023438 0.6018149852752686 0.7986354231834412 0.0 -18.784379959106445 0.0 0.0 1.0 2.700000047683716 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-231640">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Concrete,_Cast_In_Situ" target="#Concrete,_Cast_In_Situ"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0LKJKCHUL1kBtnlFXddz6a" name="0LKJKCHUL1kBtnlFXddz6a" type="NODE">
+        <matrix sid="transform">0.7986354231834412 -0.6018149852752686 0.0 -5.0351409912109375 0.6018149852752686 0.7986354231834412 0.0 -26.69886016845703 0.0 0.0 1.0 2.200000047683716 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-231273">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Roofing_-_Asphalt" target="#Roofing_-_Asphalt"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>
